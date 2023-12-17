@@ -39,11 +39,6 @@ Organize modules in a directory with an `__init__.mojo` file and run `mojo packa
 - Metaprogramming with parameters (`@parameter`).
 - Python object integration with special handling of Python dictionaries and on-demand type conversion.
 
-## Devices and Runners
-- Device-based execution (`Device` class) to choose the best performing device.
-- Runners (`JITRunner`, `CompiledASTRunner`) for executing compiled code.
-- Buffer management (`_BufferCopy`, `Allocator`, `LRUAllocator`, `MallocAllocator`) for memory operations.
-
 ## Python Integration
 Within Mojo, utilize and interact with Python objects, dictionaries, and modules, with full Type integration and runtime conversion to Mojo types (`Int`, `String`, `Bool`, `Float64`). Python objects get encapsulated in `PythonObject` for seamless operation within Mojo🔥 code.
 
