@@ -1,10 +1,10 @@
-# Mojo Programming Language
-Mojo is a high-performance, memory-safe language designed for AI, supporting both Python interoperability and complex compile-time metaprogramming through parameters and decorators.
+# Mojo🔥 Programming Language
+Mojo🔥 is a high-performance, memory-safe language designed for AI, supporting both Python interoperability and complex compile-time metaprogramming through parameters and decorators.
 
 ## Features
 - Value Ownership: Single variable ownership of values with immediate destruction policy.
 - Memory Management: No garbage collector/manual memory management, types manage their lifecycle via constructors and destructors.
-- Python Compatibility: Import and use Python modules, Mojo is progressing towards full Python compatibility.
+- Python Compatibility: Import and use Python modules, Mojo🔥 is progressing towards full Python compatibility.
 - Modules and Packages: Organize code in modules (.mojo files) and packages (directories with `__init__.mojo`). Packages can be compiled into `.mojopkg` or `.📦` files.
 - Decorators: Higher-order functions that modify code at compile-time (e.g., `@always_inline`, `@value`).
 - Parameters: Compile-time variables for metaprogramming and creating generic code structures.
@@ -45,15 +45,15 @@ Organize modules in a directory with an `__init__.mojo` file and run `mojo packa
 - Buffer management (`_BufferCopy`, `Allocator`, `LRUAllocator`, `MallocAllocator`) for memory operations.
 
 ## Python Integration
-Within Mojo, utilize and interact with Python objects, dictionaries, and modules, with full Type integration and runtime conversion to Mojo types (`Int`, `String`, `Bool`, `Float64`). Python objects get encapsulated in `PythonObject` for seamless operation within Mojo code.
+Within Mojo, utilize and interact with Python objects, dictionaries, and modules, with full Type integration and runtime conversion to Mojo types (`Int`, `String`, `Bool`, `Float64`). Python objects get encapsulated in `PythonObject` for seamless operation within Mojo🔥 code.
 
-For further details and the latest updates, refer to the [official Mojo documentation](https://docs.modular.com/mojo/).
+For further details and the latest updates, refer to the [official Mojo🔥 documentation](https://docs.modular.com/mojo/).
 ```
 
 
-# Mojo Examples
+# Mojo🔥 Examples
 
-The following examples showcase various features of the Mojo programming language, illustrating how to use struct definitions, value ownership, import modules, decorators, and Python integration.
+The following examples showcase various features of the Mojo🔥 programming language, illustrating how to use struct definitions, value ownership, import modules, decorators, and Python integration.
 
 ### Struct Definitions and Usage
 
