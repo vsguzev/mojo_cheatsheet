@@ -25,6 +25,34 @@ def main():
     let array = np.arange(6).reshape(2, 3)
     print(array)
 
+		# Value semantics
+    var a = 1
+    var b = a
+    b += 1
+    print(a)  # Outputs 1
+    print(b)  # Outputs 2
+
+    # Function demonstrating value semantics in 'def'
+    var x = 1
+    add_one(x) # takes ownership and fully copies value
+    print(x)  # Outputs 1
+
+    # Function demonstrating value semantics in 'fn'
+    var y = 1
+    add_two(y) # takes ownership as immutable reference
+    print(y)  # Outputs 1
+
+# Function with 'def' showing value semantics
+def add_one_to(y: Int):
+    y += 1
+    print(y)  # Outputs 2
+
+# Function with 'fn' showing value semantics
+fn add_two_to(y: Int):
+    var z = y
+    z += 2
+    print(z)  # Outputs 3
+
 # Simple function to greet
 # - Defining Functions with Specific Argument and Return Types
 def greet(name: String) -> String:
@@ -179,4 +207,5 @@ struct Thing(MassProducible):
         self.id = 0
     fn __moveinit__(inout self, owned existing: Self):
         self.id = existing.id
+
 
