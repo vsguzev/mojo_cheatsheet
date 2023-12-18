@@ -140,4 +140,15 @@ fn main() raises:
   print(pyDict["key"])  // Output: value
 ```
 
-Each of these examples demonstrates a different area of Mojo's functionality, helping programmers write efficient and memory-safe AI-oriented applications with seamless Python compatibility and robust metaprogramming capabilities.
+
+
+# TODO
+- [ ] Advanced decorators beyond `@value` and `@always_inline`, such as `@nonmaterializable`, `@noncapturing`, `@parameter`, `@register_passable`, and `@unroll`.
+- [ ] Full usage of parameterization techniques including automatic parameterization of functions and structures, and how to use parameters to influence compile-time decisions.
+- [ ] Detailed lifecycle management, including how to define custom copy and move constructors (`__copyinit__()`, `__moveinit__()`, `__takeinit__()`) and destructors (`__del__()`).
+- [ ] Complete package creation process, including the organization of multiple modules within a package, defining the package scope in `__init__.mojo`, and specifying module visibility and aliasing.
+- [ ] Explicit interoperability between Mojo and Python objects, showing how to handle complex Python types like dictionaries, classes, and instances in Mojo.
+- [ ] Buffer management, allocator's role in memory operations, and the nuances of memory allocation and deallocation across different devices.
+- [ ] In-depth usage of Mojo's standard library, including algorithms and utilities, and how they interact with language features for performance optimizations.
+- [ ] Exception handling in Mojo and how it differs from other languages, particularly in the context of Python compatibility.
+- [ ] Clarifications on current limitations, workarounds, and TODO items that might affect how certain language features work.
